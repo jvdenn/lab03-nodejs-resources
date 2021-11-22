@@ -11,8 +11,7 @@ const router = express.Router();
 router.get('/api/catalog', productController.getCatalog);
 router.get('/api/article/:id', productController.getProductByID);
 
-router.get("/api/catalog", productController.getCatalog);
-router.get("/api/article/:id", productController.getProductByID);
+
 
 
 //export router
