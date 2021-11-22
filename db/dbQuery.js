@@ -1,12 +1,12 @@
 const mysql = require('mysql');
-const databasename = "sql6440943";
+const databasename = "sql6453130";
 
 var pool = mysql.createPool({
     connectionLimit: 100,
     host: "sql6.freemysqlhosting.net",
-    user: "sql6440943",
-    password: "",
-    database: "sql6440943",
+    user: "sql6453130",
+    password: "q9xHBtrME5",
+    database: "sql6453130",
     debug: true
 });
 
