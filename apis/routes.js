@@ -12,7 +12,5 @@ router.get('/api/catalog', productController.getCatalog);
 router.get('/api/article/:id', productController.getProductByID);
 
 
-
-
 //export router
 module.exports = router;

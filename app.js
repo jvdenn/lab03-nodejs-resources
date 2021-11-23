@@ -30,17 +30,12 @@ app.get('/api/clients', (req, res) => {
 app.get('/controller.php', (req, res) => {
     res.render('cart'); });
     
-app.get('register', function(req, res) {
+app.get('/api/register', function(req, res) {
     res.sendFile("register.php");
      });
 app.get('/api/login', function(req, res) {
      res.sendFile("login.php");
      });
-
-app.use(session({secret: 'some secrete code'}));
-
-(express.json());
-app.use(express.urlencoded({extended: true}))
 
       //pass requests to the router middleware
 const router = require('./apis/routes');
